@@ -1,4 +1,6 @@
-import Bar from './foo/bar';
+import SourceLoader from './sourceLoader/sourceLoader';
 
-const myBar = new Bar('hello world');
-console.log(myBar.helloWorld());
+const oSourceLoader = new SourceLoader();
+oSourceLoader.loadScriptsSynchronously();
+
+
