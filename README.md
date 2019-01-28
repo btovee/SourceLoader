@@ -1,6 +1,6 @@
 # Source Loader
 
-On a loaded page, JavaScript is executed to sequentially load other JavaScript files on demand. 
+On page load JavaScript is executed to sequentially load other JavaScript files on demand. 
 If there is more than one script then it will wait until the previous script has loaded before getting the next.
 
 Expected Outcome:
@@ -15,9 +15,9 @@ Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 The page will reload if you make edits.<br>
 
-### `npm test`
+### `npm test-functional`
 
-Launches the test selenium runner
+Launches the selenium test runner, dev server must be running.
 
 ### `npm run build`
 
